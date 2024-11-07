@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>数据猎手</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+<!-- 清理依赖,删除node_modules,清除npm缓存,重新下载依赖,运行项目
+  Remove-Item -Recurse -Force node_modules
+  npm cache clean --force
+  npm install
+  npm run dev  
+  启动后端服务器:ts-node src/server/api.ts
+     npx ts-node --esm ./src/server/api.ts
+-->
+</html>
